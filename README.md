@@ -5,7 +5,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salão de Beleza - Agendamento</title>
+    <title>Salão de Beleza - Agendamentos</title>
+
+    <style>
+
+        body {
+            background-color: #FFFFFF;
+            font-family: Arial;
+            color: #111820;
+        }
+
+        h1, h2 {
+            color: #007BFF;
+        }
+
+        input, select, textarea {
+            padding: 8px;
+            background-color: #D9E2EE;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #FFFFFF;
+            padding: 10px;
+        }
+
+        a {
+            color: #00B7FF;
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -22,7 +52,7 @@
 
         <h2>Agendamento</h2>
 
-        <form>
+        <form onsubmit="alert('Agendamento marcado com sucesso!'); return false;">
 
             <label for="nome">Nome completo:</label>
             <br>
